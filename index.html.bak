@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+    	<style type="text/css">
+    		body{background-image: url(red.gif); background-size: 200%;background-repeat: no-repeat;}
+
+
+
+    	</style>
+    	<meta viewport="initial-scale = 1.0">
+    	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    	<title>MAIN PAGE</title>
+    </head>
+    <body>
+    		<header>
+    		<img src="logo.jpg" width="200px" height="100px">
+    		
+
+    	</header>
+
+    		<nav class="navbar navbar-default">
+    		<div class="container-fluid">
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="">JOB HUB</a>
+    		</div>
+    		<ul class="nav navbar-nav">
+    			<li class="active"><a href="">HOME</a></li>
+    			<li><a href="">MY PROFILE</a></li>
+    			<li><a href="">APPLICATIONS</a></li>
+    			<li><a href="">ACTIVE JOBS</a></li>
+    				<li><a href="">MESSAGES</a></li>
+    					<li><a href="">NOTIFICATIONS</a></li>
+    				<li><a href="">ABOUT US</a></li>
+    			<li><a href="">CONTACT US</a></li>
+    			<li><a href="login.html">LOGOUT</a></li>
+    		
+    		</ul>
+    		</div>
+    </nav>
+    <br>
+    <div>
+    <div>
+    	<p style="font-size: 250%;color: cyan; text-align: center; font-family:impact; ">
+    		JOIN OUR VARIOUS COMMUNITIES BASED ON YOUR PROFILE!
+    	</p>
+    </div  >
+    		<br>
+    		<div class="col-sm-6" >
+    		<legend style="text-align:center;color:cyan;">FREELANCERS</legend>
+    		<a href=""><img class="img-rounded" src="sd.jpg" height="580px" width="650px" ></a>
+            <br>
+            <form style="text-align:center;">
+             <button class="btn-lg" style="background:transparent;">JOIN</button>
+        </form>
+    		</div>
+    		<div class="col-sm-6">
+    			<legend style="color: cyan;">COMPANIES</legend>
+    			<a href=""><img class="img-rounded" src="sd4.jpg" height="580px" width="650px" ></a>
+                <br>
+            </div>
+            <div>
+                   <form style="text-align:center;">
+            <button  class="btn-lg" style="background:transparent;">JOIN</button>
+        </form>
+    					
+
+    	    </div>
+    		</div>
+    </div>
+    <hr>
+
+    <br>
+    <br>
+    <div>
+    <a href="" data-toggle="tooltip" title="tooltiptooltip">kool</a>
+    <script >
+        $(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});
+    </script>
+    </div>
+    <hr>
+    <hr>
+    <br>
+   
+
+
+
+    </body>
+    </html>
